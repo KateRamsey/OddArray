@@ -4,7 +4,9 @@
     {
         public OddArray(int[] odd)
         {
-            throw new System.NotImplementedException();
+            ODDArray = odd;
         }
+
+        public int[] ODDArray { get; set; }
     }
 }
